@@ -1107,7 +1107,7 @@ While 1
 					$iDone += 1
 					If $iTotalChecked > 0 Then ProgressWrite(Round($iDone / $iTotalChecked * 100))
 
-					MemoWrite(@CRLF & "Path" & @CRLF & "---" & @CRLF & $ItemFromList & @CRLF & "---" & @CRLF & "正在还原 :)"))
+					MemoWrite(@CRLF & "Path" & @CRLF & "---" & @CRLF & $ItemFromList & @CRLF & "---" & @CRLF & "正在还原 :)")
 					Sleep(50)
 
 				EndIf

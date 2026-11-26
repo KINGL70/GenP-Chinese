@@ -3,3 +3,5 @@ v*/Release/
 v*/UPX/upx-*-win64/
 v*/GenP/upx.exe
 v*/GenP/wintrust.dll
+downloads/
+__pycache__/

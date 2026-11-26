@@ -1,0 +1,15 @@
+GenP 4.2.2 - unofficial community-maintained version
+
+Build: run run_build.bat as administrator.
+Output: Release/GenP-v4.2.2.exe and Release/config.ini.
+Package: run package_release.ps1 from the project root.
+Download package: Release/GenP-v4.2.2.zip.
+Checksums: Release/SHA256SUMS.txt.
+Build record: Release/build-manifest.json.
+
+Includes configuration validation, file-status checks, close-handler fixes,
+local diagnostic reports, and a Stoat community link in the expanded menu.
+The original welcome screen, credits, and guide links are retained.
+
+Run validate_project.ps1 -CheckBuild from the project root to check the build
+and compiled interface. See README.md for instructions and compatibility limits.
